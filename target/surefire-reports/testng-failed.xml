@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Run1]" parallel="tests">
+  <test thread-count="3" verbose="0" name="Runner 5(failed)" parallel="tests">
+    <parameter name="tags" value="not @42"/>
+    <classes>
+      <class name="com.zensar.runner.SetupProject">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="teardown"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="7"/>
+        </methods>
+      </class> <!-- com.zensar.runner.SetupProject -->
+    </classes>
+  </test> <!-- Runner 5(failed) -->
+</suite> <!-- Failed suite [Run1] -->

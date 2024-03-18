@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>ISG-NGS</td>
+            <td>18 Mar 2024, 16:21</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Duration</th>
+            <th>Average</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.Add_Email_Address_for_the_Lead_Attorney_and_click_on_save_contact()</td>
+              <td>2</td>
+              <td class="duration" data-value="11347401900">11s 347ms</td>
+              <td class="duration" data-value="5673700950">5s 673ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.Add_Lead_Attorney_Last_Name()</td>
+              <td>4</td>
+              <td class="duration" data-value="21821998200">21s 821ms</td>
+              <td class="duration" data-value="5455499550">5s 455ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.Click_on_edit_contact_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="510323000">510ms</td>
+              <td class="duration" data-value="510323000">510ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.User_clicks_first_Active_Transaction()</td>
+              <td>16</td>
+              <td class="duration" data-value="167208911100">2m 47s 208ms</td>
+              <td class="duration" data-value="10450556943">10s 450ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.Verify_and_click_on_save_contact_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="62133723600">1m 2s 133ms</td>
+              <td class="duration" data-value="62133723600">1m 2s 133ms</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.add_Client_Lead_Email_Address_click_on_next()</td>
+              <td>7</td>
+              <td class="duration" data-value="38532292900">38s 532ms</td>
+              <td class="duration" data-value="5504613271">5s 504ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.add_Email_Address_Attorney_Click_save_Contact()</td>
+              <td>1</td>
+              <td class="duration" data-value="1286597400">1s 286ms</td>
+              <td class="duration" data-value="1286597400">1s 286ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.add_Email_Address_ISG_Click_save_Contact()</td>
+              <td>1</td>
+              <td class="duration" data-value="5392983000">5s 392ms</td>
+              <td class="duration" data-value="5392983000">5s 392ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.add_Email_Address_Member_Click_on_save_Contact()</td>
+              <td>1</td>
+              <td class="duration" data-value="6195112500">6s 195ms</td>
+              <td class="duration" data-value="6195112500">6s 195ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.add_Email_Address_for_Member_save_Contact()</td>
+              <td>1</td>
+              <td class="duration" data-value="663232000">663ms</td>
+              <td class="duration" data-value="663232000">663ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.add_Email_Address_for_the_Lead_Attorney()</td>
+              <td>2</td>
+              <td class="duration" data-value="10890971900">10s 890ms</td>
+              <td class="duration" data-value="5445485950">5s 445ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.add_Email_Address_for_the_Member_and_Click_on_save_Contact()</td>
+              <td>2</td>
+              <td class="duration" data-value="1293557500">1s 293ms</td>
+              <td class="duration" data-value="646778750">646ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.add_Lead_Attorney_First_Name()</td>
+              <td>4</td>
+              <td class="duration" data-value="21925675400">21s 925ms</td>
+              <td class="duration" data-value="5481418850">5s 481ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.add_mobile_for_Lead_Attorney_and_Click_on_save_Contact()</td>
+              <td>2</td>
+              <td class="duration" data-value="11101341600">11s 101ms</td>
+              <td class="duration" data-value="5550670800">5s 550ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.add_the_new_Lead_Attorney()</td>
+              <td>4</td>
+              <td class="duration" data-value="40229400900">40s 229ms</td>
+              <td class="duration" data-value="10057350225">10s 057ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.check_view_option_in_removed_contact()</td>
+              <td>1</td>
+              <td class="duration" data-value="5429840000">5s 429ms</td>
+              <td class="duration" data-value="5429840000">5s 429ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.click_isg_contact()</td>
+              <td>3</td>
+              <td class="duration" data-value="28836160900">28s 836ms</td>
+              <td class="duration" data-value="9612053633">9s 612ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.click_show_removed_contact()</td>
+              <td>1</td>
+              <td class="duration" data-value="5532926400">5s 532ms</td>
+              <td class="duration" data-value="5532926400">5s 532ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.clicks_on_Next_Add_Client_Lead()</td>
+              <td>8</td>
+              <td class="duration" data-value="76259761400">1m 16s 259ms</td>
+              <td class="duration" data-value="9532470175">9s 532ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.confirm_new_client_lead()</td>
+              <td>1</td>
+              <td class="duration" data-value="5460252900">5s 460ms</td>
+              <td class="duration" data-value="5460252900">5s 460ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.enter_Client_First_Name_Last_Name()</td>
+              <td>2</td>
+              <td class="duration" data-value="11072865100">11s 072ms</td>
+              <td class="duration" data-value="5536432550">5s 536ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.navigate_Project_Overview_section_add_project_overview()</td>
+              <td>16</td>
+              <td class="duration" data-value="160370242000">2m 40s 370ms</td>
+              <td class="duration" data-value="10023140125">10s 023ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.select_Anticipated_award_Date()</td>
+              <td>8</td>
+              <td class="duration" data-value="42236712900">42s 236ms</td>
+              <td class="duration" data-value="5279589112">5s 279ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.select_Competitive_Project()</td>
+              <td>8</td>
+              <td class="duration" data-value="43048619300">43s 048ms</td>
+              <td class="duration" data-value="5381077412">5s 381ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.select_Job_tittle_of_lead_Attorney()</td>
+              <td>2</td>
+              <td class="duration" data-value="11041208400">11s 041ms</td>
+              <td class="duration" data-value="5520604200">5s 520ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.select_Lead_Attorney_Legal_firm()</td>
+              <td>4</td>
+              <td class="duration" data-value="21850991900">21s 850ms</td>
+              <td class="duration" data-value="5462747975">5s 462ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.select_Lead_Attorney_Pronouns()</td>
+              <td>2</td>
+              <td class="duration" data-value="10910905500">10s 910ms</td>
+              <td class="duration" data-value="5455452750">5s 455ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.select_Primary_objevtives_of_sourcing()</td>
+              <td>2</td>
+              <td class="duration" data-value="10933769400">10s 933ms</td>
+              <td class="duration" data-value="5466884700">5s 466ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.select_Project_Role_Client_lead()</td>
+              <td>1</td>
+              <td class="duration" data-value="5465584200">5s 465ms</td>
+              <td class="duration" data-value="5465584200">5s 465ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.user_Add_Email_Address_for_the_Member()</td>
+              <td>2</td>
+              <td class="duration" data-value="988425300">988ms</td>
+              <td class="duration" data-value="494212650">494ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.user_Add_mobile_and_Click_on_save_Contact()</td>
+              <td>2</td>
+              <td class="duration" data-value="1094337900">1s 094ms</td>
+              <td class="duration" data-value="547168950">547ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.user_Select_Project_Responsibilties()</td>
+              <td>3</td>
+              <td class="duration" data-value="16588784000">16s 588ms</td>
+              <td class="duration" data-value="5529594666">5s 529ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.verify_Project_Responsibilities_data_room_owner_role()</td>
+              <td>1</td>
+              <td class="duration" data-value="67955958300">1m 7s 955ms</td>
+              <td class="duration" data-value="67955958300">1m 7s 955ms</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.verify_for_Active_Notifications()</td>
+              <td>16</td>
+              <td class="duration" data-value="245836157200">4m 5s 836ms</td>
+              <td class="duration" data-value="15364759825">15s 364ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.verify_remove_contact_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="323080300">323ms</td>
+              <td class="duration" data-value="323080300">323ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">Hooks.setupEnvironment(Scenario)</td>
+              <td>16</td>
+              <td class="duration" data-value="40168676100">40s 168ms</td>
+              <td class="duration" data-value="2510542256">2s 510ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">Hooks.tearDown(Scenario)</td>
+              <td>16</td>
+              <td class="duration" data-value="388959200">388ms</td>
+              <td class="duration" data-value="24309950">024ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SetupProjectStepDefinitions.user_clicks_on_submit_another_item()</td>
+              <td>16</td>
+              <td class="duration" data-value="122382295500">2m 2s 382ms</td>
+              <td class="duration" data-value="7648893468">7s 648ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SetupProjectStepDefinitions.user_navigates_to_Isg_Landing_Page()</td>
+              <td>16</td>
+              <td class="duration" data-value="58258242400">58s 258ms</td>
+              <td class="duration" data-value="3641140150">3s 641ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>39</td>
+            <td>197</td>
+            <td class="duration">23m 12s 968ms</td>
+            <td class="duration">7s 070ms</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

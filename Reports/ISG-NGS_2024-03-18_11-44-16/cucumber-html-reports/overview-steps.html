@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>ISG-NGS</td>
+            <td>18 Mar 2024, 11:59</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Duration</th>
+            <th>Average</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.User_clicks_first_Active_Transaction()</td>
+              <td>12</td>
+              <td class="duration" data-value="124994979500">2m 4s 994ms</td>
+              <td class="duration" data-value="10416248291">10s 416ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProjectContactStepDefinitions.verify_for_Active_Notifications()</td>
+              <td>12</td>
+              <td class="duration" data-value="177482023900">2m 57s 482ms</td>
+              <td class="duration" data-value="14790168658">14s 790ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProviderListStepDefinitions.Able_to_see_In_Removed_provider_reinstate_provider()</td>
+              <td>1</td>
+              <td class="duration" data-value="1664761300">1s 664ms</td>
+              <td class="duration" data-value="1664761300">1s 664ms</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProviderListStepDefinitions.able_click_toggle_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="206462900">206ms</td>
+              <td class="duration" data-value="206462900">206ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProviderListStepDefinitions.able_to_click_on_Edit_change_values()</td>
+              <td>1</td>
+              <td class="duration" data-value="2646678200">2s 646ms</td>
+              <td class="duration" data-value="2646678200">2s 646ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProviderListStepDefinitions.able_to_click_on_export_provider_list()</td>
+              <td>1</td>
+              <td class="duration" data-value="370216700">370ms</td>
+              <td class="duration" data-value="370216700">370ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProviderListStepDefinitions.able_to_see_In_Process_provider_Removed_Provider()</td>
+              <td>1</td>
+              <td class="duration" data-value="652129400">652ms</td>
+              <td class="duration" data-value="652129400">652ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProviderListStepDefinitions.able_to_see_In_Process_provider_add_provider()</td>
+              <td>1</td>
+              <td class="duration" data-value="67142097100">1m 7s 142ms</td>
+              <td class="duration" data-value="67142097100">1m 7s 142ms</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProviderListStepDefinitions.able_to_see_In_Process_provider_delete_provider()</td>
+              <td>1</td>
+              <td class="duration" data-value="1915589200">1s 915ms</td>
+              <td class="duration" data-value="1915589200">1s 915ms</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProviderListStepDefinitions.not_able_find_Remove_provider_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="2800">000ms</td>
+              <td class="duration" data-value="2800">000ms</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProviderListStepDefinitions.not_able_find_add_provider()</td>
+              <td>1</td>
+              <td class="duration" data-value="5100">000ms</td>
+              <td class="duration" data-value="5100">000ms</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProviderListStepDefinitions.not_able_find_toggle_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="24000">000ms</td>
+              <td class="duration" data-value="24000">000ms</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProviderListStepDefinitions.not_able_to_find_refresh_list_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="3300">000ms</td>
+              <td class="duration" data-value="3300">000ms</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProviderListStepDefinitions.not_able_to_find_reinstate_provider_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="2200">000ms</td>
+              <td class="duration" data-value="2200">000ms</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionProviderListStepDefinitions.user_will_able_to_click_view_provider_list()</td>
+              <td>12</td>
+              <td class="duration" data-value="368377677500">6m 8s 377ms</td>
+              <td class="duration" data-value="30698139791">30s 698ms</td>
+              <td class="failed">58.33%</td>
+            </tr>
+                      <tr>
+              <td class="location">ActiveTransactionStepDefinitions.user_logs_in_to_ISG_as_Client()</td>
+              <td>5</td>
+              <td class="duration" data-value="33377073800">33s 377ms</td>
+              <td class="duration" data-value="6675414760">6s 675ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">Hooks.setupEnvironment(Scenario)</td>
+              <td>12</td>
+              <td class="duration" data-value="24940256000">24s 940ms</td>
+              <td class="duration" data-value="2078354666">2s 078ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">Hooks.tearDown(Scenario)</td>
+              <td>12</td>
+              <td class="duration" data-value="275529100">275ms</td>
+              <td class="duration" data-value="22960758">022ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SetupProjectStepDefinitions.user_clicks_on_submit_another_item()</td>
+              <td>7</td>
+              <td class="duration" data-value="51494868000">51s 494ms</td>
+              <td class="duration" data-value="7356409714">7s 356ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SetupProjectStepDefinitions.user_navigates_to_Isg_Landing_Page()</td>
+              <td>12</td>
+              <td class="duration" data-value="38385369600">38s 385ms</td>
+              <td class="duration" data-value="3198780800">3s 198ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>20</td>
+            <td>96</td>
+            <td class="duration">14m 53s 925ms</td>
+            <td class="duration">9s 311ms</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

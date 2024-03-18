@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Run1" duration-ms="247537" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:44:17Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="Debugger.feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.Debugger@631330c]" name="feature" class="com.zensar.runner.Debugger"/>
+        <method signature="SetupProject.feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.SetupProject@3e57cd70]" name="feature" class="com.zensar.runner.SetupProject"/>
+        <method signature="TestRunner1.feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.TestRunner1@6b9651f3]" name="feature" class="com.zensar.runner.TestRunner1"/>
+        <method signature="TestRunner2.feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.TestRunner2@e874448]" name="feature" class="com.zensar.runner.TestRunner2"/>
+        <method signature="TestRunner3.feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.TestRunner3@cb51256]" name="feature" class="com.zensar.runner.TestRunner3"/>
+        <method signature="ActiveTransaction.feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.ActiveTransaction@670b40af]" name="feature" class="com.zensar.runner.ActiveTransaction"/>
+        <method signature="ActiveTransactionProjectContact.feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.ActiveTransactionProjectContact@371a67ec]" name="feature" class="com.zensar.runner.ActiveTransactionProjectContact"/>
+        <method signature="ActiveTransactionProviderList.feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.ActiveTransactionProviderList@63440df3]" name="feature" class="com.zensar.runner.ActiveTransactionProviderList"/>
+        <method signature="ActiveTransactionScopeBuilder.feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.ActiveTransactionScopeBuilder@4eb7f003]" name="feature" class="com.zensar.runner.ActiveTransactionScopeBuilder"/>
+        <method signature="CloseTransaction.feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.CloseTransaction@1b26f7b2]" name="feature" class="com.zensar.runner.CloseTransaction"/>
+        <method signature="Sanity.feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.Sanity@4a87761d]" name="feature" class="com.zensar.runner.Sanity"/>
+        <method signature="Regression.feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.Regression@b7dd107]" name="feature" class="com.zensar.runner.Regression"/>
+        <method signature="ProjectContact.feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.ProjectContact@43bd930a]" name="feature" class="com.zensar.runner.ProjectContact"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Runner 4" duration-ms="1" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+      <class name="com.zensar.runner.InitializeExecution">
+        <test-method status="PASS" signature="initializeExecutionModel()[pri:0, instance:com.zensar.runner.InitializeExecution@fad74ee]" name="initializeExecutionModel" is-config="true" duration-ms="1" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExecutionModel -->
+        <test-method status="PASS" signature="stub()[pri:0, instance:com.zensar.runner.InitializeExecution@fad74ee]" name="stub" duration-ms="0" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stub -->
+      </class> <!-- com.zensar.runner.InitializeExecution -->
+    </test> <!-- Runner 4 -->
+    <test name="Runner 5" duration-ms="525" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+      <class name="com.zensar.runner.SetupProject">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:com.zensar.runner.SetupProject@3e57cd70]" name="setUpClass" is-config="true" duration-ms="153" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not @42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zensar.runner.SetupProject@3e57cd70]" name="tearDownClass" is-config="true" duration-ms="13" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zensar.runner.SetupProject@3e57cd70]" name="teardown" is-config="true" duration-ms="1" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zensar.runner.SetupProject -->
+    </test> <!-- Runner 5 -->
+    <test name="Runner 2" duration-ms="536" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+      <class name="com.zensar.runner.Debugger">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:com.zensar.runner.Debugger@631330c]" name="setUpClass" is-config="true" duration-ms="164" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not @42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zensar.runner.Debugger@631330c]" name="tearDownClass" is-config="true" duration-ms="13" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zensar.runner.Debugger@631330c]" name="teardown" is-config="true" duration-ms="1" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zensar.runner.Debugger -->
+    </test> <!-- Runner 2 -->
+    <test name="Runner 6" duration-ms="39" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+      <class name="com.zensar.runner.TestRunner1">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:com.zensar.runner.TestRunner1@6b9651f3]" name="setUpClass" is-config="true" duration-ms="9" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not @42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zensar.runner.TestRunner1@6b9651f3]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zensar.runner.TestRunner1@6b9651f3]" name="teardown" is-config="true" duration-ms="0" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zensar.runner.TestRunner1 -->
+    </test> <!-- Runner 6 -->
+    <test name="Runner 7" duration-ms="57" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+      <class name="com.zensar.runner.TestRunner2">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:com.zensar.runner.TestRunner2@e874448]" name="setUpClass" is-config="true" duration-ms="9" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not @42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zensar.runner.TestRunner2@e874448]" name="tearDownClass" is-config="true" duration-ms="20" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zensar.runner.TestRunner2@e874448]" name="teardown" is-config="true" duration-ms="0" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zensar.runner.TestRunner2 -->
+    </test> <!-- Runner 7 -->
+    <test name="Runner 8" duration-ms="33" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+      <class name="com.zensar.runner.TestRunner3">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:com.zensar.runner.TestRunner3@cb51256]" name="setUpClass" is-config="true" duration-ms="5" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not @42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zensar.runner.TestRunner3@cb51256]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zensar.runner.TestRunner3@cb51256]" name="teardown" is-config="true" duration-ms="1" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zensar.runner.TestRunner3 -->
+    </test> <!-- Runner 8 -->
+    <test name="Runner 10" duration-ms="40" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:11Z">
+      <class name="com.zensar.runner.ActiveTransactionProjectContact">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:com.zensar.runner.ActiveTransactionProjectContact@371a67ec]" name="setUpClass" is-config="true" duration-ms="6" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not @42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zensar.runner.ActiveTransactionProjectContact@371a67ec]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zensar.runner.ActiveTransactionProjectContact@371a67ec]" name="teardown" is-config="true" duration-ms="0" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zensar.runner.ActiveTransactionProjectContact -->
+    </test> <!-- Runner 10 -->
+    <test name="Runner 9" duration-ms="53" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:11Z">
+      <class name="com.zensar.runner.ActiveTransaction">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:com.zensar.runner.ActiveTransaction@670b40af]" name="setUpClass" is-config="true" duration-ms="5" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not @42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zensar.runner.ActiveTransaction@670b40af]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zensar.runner.ActiveTransaction@670b40af]" name="teardown" is-config="true" duration-ms="0" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zensar.runner.ActiveTransaction -->
+    </test> <!-- Runner 9 -->
+    <test name="Runner 11" duration-ms="66" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+      <class name="com.zensar.runner.ActiveTransactionProviderList">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:com.zensar.runner.ActiveTransactionProviderList@63440df3]" name="setUpClass" is-config="true" duration-ms="12" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not @42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zensar.runner.ActiveTransactionProviderList@63440df3]" name="tearDownClass" is-config="true" duration-ms="15" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zensar.runner.ActiveTransactionProviderList@63440df3]" name="teardown" is-config="true" duration-ms="1" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zensar.runner.ActiveTransactionProviderList -->
+    </test> <!-- Runner 11 -->
+    <test name="Runner 13" duration-ms="74" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+      <class name="com.zensar.runner.CloseTransaction">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:com.zensar.runner.CloseTransaction@1b26f7b2]" name="setUpClass" is-config="true" duration-ms="11" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not @42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zensar.runner.CloseTransaction@1b26f7b2]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zensar.runner.CloseTransaction@1b26f7b2]" name="teardown" is-config="true" duration-ms="1" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zensar.runner.CloseTransaction -->
+    </test> <!-- Runner 13 -->
+    <test name="Runner 14" duration-ms="33" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+      <class name="com.zensar.runner.Sanity">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:com.zensar.runner.Sanity@4a87761d]" name="setUpClass" is-config="true" duration-ms="13" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not @42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zensar.runner.Sanity@4a87761d]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zensar.runner.Sanity@4a87761d]" name="teardown" is-config="true" duration-ms="1" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zensar.runner.Sanity -->
+    </test> <!-- Runner 14 -->
+    <test name="Runner 15" duration-ms="34" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+      <class name="com.zensar.runner.Regression">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:com.zensar.runner.Regression@b7dd107]" name="setUpClass" is-config="true" duration-ms="10" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not @42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zensar.runner.Regression@b7dd107]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zensar.runner.Regression@b7dd107]" name="teardown" is-config="true" duration-ms="1" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zensar.runner.Regression -->
+    </test> <!-- Runner 15 -->
+    <test name="Runner 16" duration-ms="33" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+      <class name="com.zensar.runner.ProjectContact">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:com.zensar.runner.ProjectContact@43bd930a]" name="setUpClass" is-config="true" duration-ms="6" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not @42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zensar.runner.ProjectContact@43bd930a]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zensar.runner.ProjectContact@43bd930a]" name="teardown" is-config="true" duration-ms="0" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zensar.runner.ProjectContact -->
+    </test> <!-- Runner 16 -->
+    <test name="Runner 1" duration-ms="1696" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:12Z">
+      <class name="com.zensar.runner.ConcludeExecution">
+        <test-method status="PASS" signature="endExecution()[pri:0, instance:com.zensar.runner.ConcludeExecution@1563da5]" name="endExecution" is-config="true" duration-ms="1694" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExecution -->
+        <test-method status="PASS" signature="stub()[pri:0, instance:com.zensar.runner.ConcludeExecution@1563da5]" name="stub" duration-ms="0" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stub -->
+      </class> <!-- com.zensar.runner.ConcludeExecution -->
+    </test> <!-- Runner 1 -->
+    <test name="Runner 12" duration-ms="246844" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:44:17Z">
+      <class name="com.zensar.runner.ActiveTransactionScopeBuilder">
+        <test-method status="PASS" signature="setUpClass(java.lang.String)[pri:0, instance:com.zensar.runner.ActiveTransactionScopeBuilder@4eb7f003]" name="setUpClass" is-config="true" duration-ms="8" started-at="2024-03-18T11:40:11Z" finished-at="2024-03-18T11:40:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not @42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.ActiveTransactionScopeBuilder@4eb7f003]" name="feature" duration-ms="59431" started-at="2024-03-18T11:40:11Z" description="Cucmber Scenarios" data-provider="scenarios" finished-at="2024-03-18T11:41:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.zensar.scriptutils.PickleWrapper@6cdaf226]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.ActiveTransactionScopeBuilder@4eb7f003]" name="feature" duration-ms="58059" started-at="2024-03-18T11:41:10Z" description="Cucmber Scenarios" data-provider="scenarios" finished-at="2024-03-18T11:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.zensar.scriptutils.PickleWrapper@2de1d2c1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.ActiveTransactionScopeBuilder@4eb7f003]" name="feature" duration-ms="63790" started-at="2024-03-18T11:42:08Z" description="Cucmber Scenarios" data-provider="scenarios" finished-at="2024-03-18T11:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.zensar.scriptutils.PickleWrapper@6e44b970]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(com.zensar.scriptutils.PickleWrapper)[pri:0, instance:com.zensar.runner.ActiveTransactionScopeBuilder@4eb7f003]" name="feature" duration-ms="65179" started-at="2024-03-18T11:43:12Z" description="Cucmber Scenarios" data-provider="scenarios" finished-at="2024-03-18T11:44:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.zensar.scriptutils.PickleWrapper@496c82f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.zensar.runner.ActiveTransactionScopeBuilder@4eb7f003]" name="tearDownClass" is-config="true" duration-ms="312" started-at="2024-03-18T11:44:17Z" finished-at="2024-03-18T11:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zensar.runner.ActiveTransactionScopeBuilder@4eb7f003]" name="teardown" is-config="true" duration-ms="0" started-at="2024-03-18T11:44:17Z" finished-at="2024-03-18T11:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zensar.runner.ActiveTransactionScopeBuilder -->
+    </test> <!-- Runner 12 -->
+  </suite> <!-- Run1 -->
+  <suite name="Conclusion Suite" duration-ms="790" started-at="2024-03-18T11:44:17Z" finished-at="2024-03-18T11:44:18Z">
+    <groups>
+    </groups>
+    <test name="Conclude 1" duration-ms="790" started-at="2024-03-18T11:44:17Z" finished-at="2024-03-18T11:44:18Z">
+      <class name="com.zensar.runner.ConcludeExecution">
+        <test-method status="PASS" signature="endExecution()[pri:0, instance:com.zensar.runner.ConcludeExecution@8e24743]" name="endExecution" is-config="true" duration-ms="789" started-at="2024-03-18T11:44:17Z" finished-at="2024-03-18T11:44:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExecution -->
+        <test-method status="PASS" signature="stub()[pri:0, instance:com.zensar.runner.ConcludeExecution@8e24743]" name="stub" duration-ms="0" started-at="2024-03-18T11:44:17Z" finished-at="2024-03-18T11:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stub -->
+      </class> <!-- com.zensar.runner.ConcludeExecution -->
+    </test> <!-- Conclude 1 -->
+  </suite> <!-- Conclusion Suite -->
+  <suite name="Intialization Suite" duration-ms="32" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+    <groups>
+    </groups>
+    <test name="Init 1" duration-ms="32" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+      <class name="com.zensar.runner.InitializeExecution">
+        <test-method status="PASS" signature="initializeExecutionModel()[pri:0, instance:com.zensar.runner.InitializeExecution@1d29cf23]" name="initializeExecutionModel" is-config="true" duration-ms="14" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeExecutionModel -->
+        <test-method status="PASS" signature="stub()[pri:0, instance:com.zensar.runner.InitializeExecution@1d29cf23]" name="stub" duration-ms="2" started-at="2024-03-18T11:40:10Z" finished-at="2024-03-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stub -->
+      </class> <!-- com.zensar.runner.InitializeExecution -->
+    </test> <!-- Init 1 -->
+  </suite> <!-- Intialization Suite -->
+</testng-results>
